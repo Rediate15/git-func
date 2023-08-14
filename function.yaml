@@ -1,0 +1,12 @@
+apiVersion: serverless.kyma-project.io/v1alpha2
+kind: Function
+metadata:
+  name: i538921-git-func
+  namespace: dts-integration-ger
+spec:
+  runtime: nodejs18
+  source:
+    gitRepository:
+      baseDir: ./
+      reference: master
+      url: https://github.com/Rediate15/git-func.git

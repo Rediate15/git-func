@@ -3,7 +3,6 @@ namespace: dts-integration-ger
 runtime: nodejs18
 source:
     gitRepository:
-      baseDir: ./
       reference: master
-      url: https://github.tools.sap/I538921/git-func.git
+      url: https://github.com/Rediate15/git-func.git
 schemaVersion: v0
