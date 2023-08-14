@@ -1,5 +1,5 @@
 module.exports = {
     main: function (event, context) {
-        retrn 'Hello ABC'
+        return 'Hello ABC'
     }
 }
